@@ -1,0 +1,110 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+ios/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+xcshareddata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+# project.xcworkspace
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+!debug.keystore
+
+# Visual Studio Code
+jsconfig.json
+tsconfig.json
+.vscode
+typings/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# iOS
+ios/phoenix/Info.plist
+ios/phoenix/phoenix.entitlements
+ios/OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements
+ios/OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtensionDebug.entitlements
+
+# Android
+android/*.hprof
+android/build/*
+android/app/build/*
+android/app/config.gradle
+android/app/src/main/AndroidManifest.xml
+android/app/src/main/assets/index.android.bundle.meta
+android/app/src/main/res/drawable-*/*
+!android/app/src/main/res/drawable-*/ic_stat_onesignal_default.png
+!android/app/src/main/res/drawable-*-mdpi/splash.png
+!android/app/src/main/res/drawable-*-hdpi/splash.png
+!android/app/src/main/res/drawable-*-xhdpi/splash.png
+!android/app/src/main/res/drawable-*-xxhdpi/splash.png
+!android/app/src/main/res/drawable-*-xxxhdpi/splash.png
+android/.project
+android/.settings/
+android/app/.classpath
+android/app/.project
+android/app/.settings/
+build/*
+!build/config.json
+
+src/config/*
+!src/config/index.js
+gulp/test.js
+coverage
+ios/config.xcconfig
+ios/phoenix.xcworkspace/xcshareddata
+npm-debug.log
+
+.env
+*.xcscmblueprint
+
+# Tests
+tests/e2e/artifacts/*
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+/vendor/bundle/w
+
+# Local File History VS Code module
+.history
+
+# react-native-ultimate-config
+ios/rnuc.xcconfig
